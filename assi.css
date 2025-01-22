@@ -278,17 +278,17 @@
   
   
   
-  /* Background colors for specific cards */
+  
   .vision:nth-child(1) {
-      background-color: #E3F2FD; /* Kinder card */
+      background-color: #E3F2FD;
   }
   
   .vision:nth-child(2) {
-      background-color: #FFF8E1; /* Elementary card */
+      background-color: #FFF8E1; 
   }
   
   .vision:nth-child(3) {
-      background-color: #F3E5F5; /* Middle card */
+      background-color: #F3E5F5;
   }
   
   
@@ -472,6 +472,9 @@
       .vision-containar {
           flex-direction: column; 
       }
+      .hide{
+        display: none;
+    }
       
       .container{
           flex-direction: column;
